@@ -1,0 +1,255 @@
+# depslib dependency file v1.0
+1599516252 source:c:\users\hp\documents\oop final exam\bill.cpp
+	<iostream>
+	<string>
+	"Bill.h"
+
+1599510243 c:\users\hp\documents\oop final exam\bill.h
+	<iostream>
+	<string>
+	"Ride.h"
+	"type.h"
+
+1599510243 c:\users\hp\documents\oop final exam\ride.h
+	<string>
+
+1599510243 c:\users\hp\documents\oop final exam\type.h
+	<string>
+	"Car.h"
+
+1599510243 c:\users\hp\documents\oop final exam\car.h
+	<string>
+	"Driver.h"
+
+1599510243 c:\users\hp\documents\oop final exam\driver.h
+	<string>
+	"Car.h"
+
+1599515953 source:c:\users\hp\documents\oop final exam\car.cpp
+	<iostream>
+	<string>
+	"Car.h"
+
+1599516090 source:c:\users\hp\documents\oop final exam\driver.cpp
+	<iostream>
+	"Driver.h"
+
+1599514855 source:c:\users\hp\documents\oop final exam\game.cpp
+	<iostream>
+	<string>
+	"Game.h"
+
+1599515456 source:c:\users\hp\documents\oop final exam\gamecompany.cpp
+	<iostream>
+	<string>
+	"GameCompany.h"
+
+1599515590 source:c:\users\hp\documents\oop final exam\gamer.cpp
+	<iostream>
+	<string>
+	"Gamer.h"
+
+1599513784 source:c:\users\hp\documents\oop final exam\offline.cpp
+	<iostream>
+	<string>
+	"Offline.h"
+
+1599513765 source:c:\users\hp\documents\oop final exam\online.cpp
+	<iostream>
+	<string>
+	"Online.h"
+
+1599513797 source:c:\users\hp\documents\oop final exam\platform.cpp
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599515779 source:c:\users\hp\documents\oop final exam\ride.cpp
+	<iostream>
+	"Ride.h"
+
+1599516176 source:c:\users\hp\documents\oop final exam\rider.cpp
+	<iostream>
+	"Rider.h"
+
+1599510243 c:\users\hp\documents\oop final exam\rider.h
+	<string>
+
+1599515978 source:c:\users\hp\documents\oop final exam\type.cpp
+	<iostream>
+	<string>
+	"type.h"
+
+1599515894 source:c:\users\hp\documents\oop final exam\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Ride.h"
+	"type.h"
+	"Bill.h"
+	"Car.h"
+	"Rider.h"
+	"Driver.h"
+	"GameCompany.h"
+	"Game.h"
+	"Platform.h"
+	"Gamer.h"
+	"Online.h"
+	"Offline.h"
+
+1599514877 c:\users\hp\documents\oop final exam\game.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599515444 c:\users\hp\documents\oop final exam\gamecompany.h
+	<iostream>
+	<string>
+	"Game.h"
+
+1599515590 c:\users\hp\documents\oop final exam\gamer.h
+	<iostream>
+	<string>
+	"Game.h"
+
+1599513580 c:\users\hp\documents\oop final exam\platform.h
+	<iostream>
+	<string>
+
+1599513581 c:\users\hp\documents\oop final exam\offline.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599513581 c:\users\hp\documents\oop final exam\online.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\bill.cpp
+	<iostream>
+	<string>
+	"Bill.h"
+
+1599528242 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\bill.h
+	<iostream>
+	<string>
+	"Ride.h"
+	"type.h"
+
+1599528242 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\ride.h
+	<string>
+
+1599528242 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\type.h
+	<string>
+	"Car.h"
+
+1599534388 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\car.h
+	<string>
+	"Driver.h"
+
+1599528242 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\driver.h
+	<string>
+	"Car.h"
+
+1599642346 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\car.cpp
+	<iostream>
+	<string>
+	"Car.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\driver.cpp
+	<iostream>
+	"Driver.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\game.cpp
+	<iostream>
+	<string>
+	"Game.h"
+
+1599532876 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\game.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599531580 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\platform.h
+	<iostream>
+	<string>
+
+1599533456 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\gamecompany.cpp
+	<iostream>
+	<string>
+	"GameCompany.h"
+
+1599533444 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\gamecompany.h
+	<iostream>
+	<string>
+	"Game.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\gamer.cpp
+	<iostream>
+	<string>
+	"Gamer.h"
+
+1599533590 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\gamer.h
+	<iostream>
+	<string>
+	"Game.h"
+
+1599641826 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Ride.h"
+	"type.h"
+	"Bill.h"
+	"Car.h"
+	"Rider.h"
+	"Driver.h"
+	"GameCompany.h"
+	"Game.h"
+	"Platform.h"
+	"Gamer.h"
+	"Online.h"
+	"Offline.h"
+
+1599528242 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\rider.h
+	<string>
+
+1599531580 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\online.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599531580 c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\offline.h
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599642240 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\offline.cpp
+	<iostream>
+	<string>
+	"Offline.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\online.cpp
+	<iostream>
+	<string>
+	"Online.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\platform.cpp
+	<iostream>
+	<string>
+	"Platform.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\ride.cpp
+	<iostream>
+	"Ride.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\rider.cpp
+	<iostream>
+	"Rider.h"
+
+1599642242 source:c:\users\muhammad muneeb\desktop\csc19f177_ab_finalexam\type.cpp
+	<iostream>
+	<string>
+	"type.h"
+

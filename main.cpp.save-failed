@@ -1,0 +1,137 @@
+#include <iostream>
+#include<string>
+#include<vector>
+//taxi Classess
+#include"Ride.h"
+#include"type.h"
+#include"Bill.h"
+#include"Car.h"
+#include"Rider.h"
+#include"Driver.h"
+//game company classes
+#include"GameCompany.h"
+#include"Game.h"
+#include"Platform.h"
+#include"Gamer.h"
+#include"Online.h"
+#include"Offline.h"
+using namespace std;
+void fillVector_Game_Management(vector<GameCompany>&, vector<Game>&, vector<Gamer>&, vector<Platform>&, vector<Online>& , vector<Offline>&);
+void fillVector_Taxi_Management(vector<Car>&, vector<luxury>&, vector<Driver>&, vector<Rider>&, vector<Bill>& , vector<Ride>&);
+int main()
+{
+    vector<Car> car;
+    vector<luxury> luxu;
+    vector<Driver> driver;
+    vector<Rider> rider;
+    vector<Bill> bill;
+    vector<Ride> ride;
+    vector<GameCompany> gameCompany;
+    vector<Game> game;
+    vector<Gamer> gamer;
+    vector<Platform> platform;
+    vector<Online> online;
+    vector<Offline> offline;
+    fillVector_Taxi_Management(car, luxu, driver, rider, bill, ride);
+    fillVector_Game_Management(gameCompany, game, gamer, platform, online, offline);
+    return 0;
+}
+void fillVector_Taxi_Management(vector<Car>& car, vector<luxury>& luxu, vector<Driver>& driver, vector<Rider>& rider, vector<Bill>& bill, vector<Ride>& ride)
+{
+    cout<<"\n\n\t\t\t\t  Taxi-Cab Management System"<<endl;
+    cout<<"\t\t\t\t  ==========================="<<endl;
+    cout<<"\n\t\t\t\t Ride # 01"<<endl;
+    Car car1("YRT2116", "Eura", "SUZUKI", "CNG", "SILVER", 2016), car2;
+    car1.printData();
+    car2 = car1;
+
+    luxury luxu01(1, 1, 1, 0), luxu02;
+    luxu01 = luxu02;
+    luxu01.PrintData();
+
+    Driver driver01("Asad", "asd124", 5, 1), driver02;
+    driver02 = driver01;
+    driver01.PrintData();
+
+    Ride ride01("HBL main building tower", "Water Pump", 1 , 231, 1), ride02;
+    ride02 = ride01;
+    ride01.PrintData();
+    Rider rider01("zaf21", "zafar"), rider02;
+    rider02 = rider01;
+    rider01.PrintData();
+
+    Bill bill01(200), bill02;
+    bill02 = bill01;
+    bill01.PrintData();
+
+    cout<<"\n\t\t\t\t Ride # 02"<<endl;
+    car2.printData();
+    cout<<"Number of Objects made: ";
+    car2.display();
+
+    luxu02.PrintData();
+    cout<<"Number of Objects made: ";
+    luxu02.display();
+
+    driver02.PrintData();
+    cout<<"Number of Objects made: ";
+    driver02.display();
+
+    rider02.PrintData();
+    cout<<"Number of Objects made: ";
+    rider02.display();
+
+    ride02.PrintData();
+    cout<<"Number of Objects made: ";
+    ride02.display();
+}
+void fillVector_Game_Management(vector<GameCompany>& gameCompany, vector<Game>& game, vector<Gamer>& gamer, vector<Platform>& platform, vector<Online>& online, vector<Offline>& offline)
+{
+    cout<<"\n\n\t\t\tGame Management System"<<endl;
+    cout<<"\t\t\t==========================="<<endl;
+    cout<<"\n\t\t\t\t Detail # 01"<<endl;
+    GameCompany gameCompany01("EA", "XYZ plaza New York", "ASWXU77623", 20), gameCompany02;
+    gameCompany01.PrintData();
+    gameCompany02 = gameCompany01;
+
+    Game game01("DOOM 3.0", "doom232221XUZ", 100, "Action&&FPS"), game02;
+    game02 = game01;
+    game01.PrintData();
+
+    Gamer gamer01("Asad", "as12345", "123fireonme", "asad32@gmail.com", "171.13.223.1" , 1), gamer02;
+    gamer02 = gamer01;
+    gamer01.PrintData();
+
+    Platform platform01("GamersOfRank", "giidas2322", "124.114.12.441.0.1"), platform02;
+    platform02 = platform01;
+    platform01.PrintData();
+
+    Online online01(20), online02;
+    online02 = online01;
+    online01.PrintData();
+
+    Offline offline01("wqeqq2311", "ASD-234D-T76ADF-3EDAS", 1), offline02;
+    offline02 = offline01;
+    offline01.PrintData();
+
+    cout<<"\n\n\t\t Detail # 02"<<endl;
+    gameCompany02.PrintData();
+    cout<<"Number of Objects made: ";
+    gameCompany02.display();
+
+    game02.PrintData();
+    cout<<"Number of Objects made: ";
+    game02.display();
+
+    platform02.PrintData();
+    cout<<"Number of Objects made: ";
+    platform02.display();
+
+    online02.PrintData();
+    cout<<"Number of Objects made: ";
+    online02.display();
+
+    offline02.PrintData();
+    cout<<"Number of Objects made: ";
+    offline02.display();
+}
